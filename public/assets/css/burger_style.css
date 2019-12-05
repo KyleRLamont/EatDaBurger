@@ -1,15 +1,7 @@
-.burgertoeat {
-  padding: 5px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  background: #faebd7;
-  
-}
 
 .clearfix::after {
   content: "";
   clear: both;
-  display: inline-block;
 }
 
 .label {
@@ -40,14 +32,14 @@ img{
     display: inline-block;
 }
 
-.burgerseaten {
-  padding: 5px;
-  margin-bottom: 5px;
-  background: #faebd7;
-  
-}
-
-.container{
+#burgertoeat{
     width: 50%;
     float: left;
+    margin-bottom: 5px;
+}
+
+#burgereaten{
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
 }

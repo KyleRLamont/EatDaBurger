@@ -10,10 +10,18 @@
   },
   "devDependencies": {},
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
-      "watch": "nodemon server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Kyle LaMont",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleRLamont/EatDaBurger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KyleRLamont/EatDaBurger/issues"
+  },
+  "homepage": "https://github.com/KyleRLamont/EatDaBurger#readme"
 }

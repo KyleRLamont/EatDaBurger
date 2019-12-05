@@ -1,32 +1,33 @@
 <h1>Eat Da Burger!!!</h1>
 <img src="/assets/images/burger.png"><br>
 
-<div class="container clearfix">
-    {{#each burger}}
-    {{#unless devoured}}
-    {{> burger-block devoured=false}}
-    {{/unless}}
-    {{/each}}
-</div>
-<div class="container clearfix">
-    {{#each burger}}
-    {{#if devoured}}
-    <div class="burgerseaten">
-        {{burger_name}}
+<div class="container">
+    <div id="burgertoeat">
+        {{#each burger}}
+        {{#unless devoured}}
+        {{> burger-block devoured=false}}
+        {{/unless}}
+        {{/each}}
     </div>
-    {{/if}}
-    {{/each}}
+    <div id="burgereaten">
+        {{#each burger}}
+        {{#if devoured}}
+        <ul>
+            {{burger_name}}
+        </ul>
+        {{/if}}
+        {{/each}}
+    </div>
 </div>
 
 <br><br>
-
+<div class="container">
 <form class="create-form">
-
     <div class="form-group">
         <label for="burger"></label>
         <input type="text" id="burger" name="name">
     </div>
-
     <button type="submit">Submit</button>
 </form>
+</div>
 <h2>Enter a burger you want to eat.</h2>
