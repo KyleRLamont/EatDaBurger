@@ -1,8 +1,5 @@
 # EatDaBurger
 
-# FriendFinder
-# Bamazon
-
 ## Download Repository
 Copy the link to clone:
 <https://github.com/KyleRLamont/EatDaBurger.git>
